@@ -1,0 +1,502 @@
+/*body*/
+body {
+	font-size: 18px;
+	font-family: 'Calibri', cursive;
+	color: black;
+}
+
+/*header*/
+.header {
+	background-image: url(../images/coffee-3408141_960_720.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 376px;
+} 
+
+.header h1 {
+	font-size: 85px;
+	margin-bottom: 0;
+	padding-top: 30px;
+	text-align: center;
+	height: 180px;
+	text-align: left;
+	text-shadow: 2px 2px 4px brown;
+	transition: width 1s;
+}
+
+/*header changes color and size on hover*/
+/* .header h1:hover {
+	color: brown;
+	font-size: 50px;
+} */
+
+/*header and footer logo*/
+.header h1,
+.footer .footer_logo .c_name {
+	color: #bc5f04;
+	font-family: 'Snap ITC', arial ,sans-serif;
+	text-shadow: 2px 2px 3px brown;
+}
+
+/*navigation*/
+.navbar-collapse {
+	z-index: 9;
+}
+
+.navbar {
+	background-color: #fff5d0;
+} 
+
+#navbarNav ul li a {
+	color: #bc5f04;
+	font-size: 32px;
+	font-family: 'Merienda One', cursive;
+}
+
+/* #navbarNav ul li a:hover {
+	color: brown;
+	text-shadow: 2px 2px 2px brown;
+	text-transform: uppercase;
+} */
+
+#navbarNav ul li a:active {
+	color: black;
+}
+
+#navbarNav ul li {
+	padding-left: 30px;
+}
+
+img {
+ 	width: 100%;
+ 	height: auto;
+}
+
+.about h2 {
+	font-size: 40px;
+}
+
+/*image overlay effect*/
+.about {
+  position: relative;
+}
+
+.image {
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fff5d0;
+}
+
+.about:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #bc5f04;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Merienda One', cursive;
+}
+
+.about h3 a {
+	color: #bc5f04;
+}
+
+/*grouping*/
+.about h2,
+.about h3, 
+.flavours h2, 
+.testimonials h2 {
+	font-family: 'Merienda One', cursive;
+	color: #bc5f04;
+	text-align: center;
+}
+
+.about h2,
+.flavours h2,
+.testimonials h2 {
+	text-shadow: 2px 2px 3px brown;
+}
+
+.flavours h2, 
+.testimonials h2 {
+	font-size: 48px; 
+}
+
+.flavours h3 {
+	font-size: 30px;
+}
+
+.flavours h3,
+.testimonials h4 {
+	color: #bc5f04; 
+	text-align: center;
+}
+
+/*footer*/
+.footer {
+	background-color: #fff5d0;
+}
+
+.footer h3 {
+	color: #bc5f04;
+	font-family: 'Merienda One', cursive; 
+}
+
+.footer .row {
+	text-align: center;
+}
+
+.footer .footer_logo .c_name {
+	font-size: 40px; 
+}
+
+.footer .social img {
+	width: 65px;
+} 
+
+.footer_logo .copy,
+.footer p {
+	font-size: 22px;
+}
+
+/*link*/
+a:link,
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+/*link hover and active*/
+a:hover,
+a:active {
+	color: #bc5f04;
+}
+
+/*grouping*/
+.aboutpage .aboutus h2,
+.aboutpage .events h2,
+.aboutpage .events h3,
+.contactpage .contactus .contact h2,
+.contactpage .contactus h3,
+.servicepage .services h2,
+.servicepage .cards h2,
+.contactpage .contactmedia .centered,
+.contactpage .contactmedia h2,
+.menupage .coffeemenu h2, 
+.menupage .foodmenu h2,
+.contactpage .login h2 {
+	font-family: 'Merienda One', cursive;
+	color: #bc5f04;
+}
+
+/*aboutpage*/
+.aboutpage .aboutus h2, 
+.aboutpage .events h2,
+.contactpage .login h2 {
+	text-align: center;
+	font-size: 48px;
+	text-shadow: 2px 2px 3px brown;	
+}
+
+.aboutpage .events h3 {
+	font-size: 24px;
+}
+
+.aboutpage .events h5,
+.aboutpage .staff {
+	font-family: 'Merienda One', cursive;
+}
+
+.aboutpage .staff {
+  	position: relative;
+  	color: white;
+  	font-size: 36px;
+  	text-shadow: 2px 2px 3px brown; 
+}
+
+.aboutpage .staff .centered {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+/*grouping*/
+.contactpage .contactus .contact h2,
+.contactpage .contactus h3,
+.contactpage .contactus p,
+.servicepage .services h3,
+.contactpage .contactmedia {
+	text-align: center;
+}
+
+/*services page*/
+.servicepage .services h2,
+.servicepage .cards h2 {
+	text-align: center;
+	font-size: 48px;
+	text-shadow: 2px 2px 3px brown;
+}
+
+.servicepage .cards {
+  	position: relative;
+  	color: black;
+  	font-size: 36px;
+  	font-family: 'Merienda One', cursive;
+}
+
+.servicepage .cards .centered {
+	position: absolute;
+  	top: 30%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+/*cards transition*/
+/* .servicepage .cards h3 {
+	transition: 2s;
+} */
+
+/* .servicepage .cards h3:hover {
+	margin-left: 50px;
+} */
+
+/*cards transition*/
+/* .servicepage .cards h3 {
+	transition: 2s;
+} */
+
+/* .servicepage .cards h3:hover {
+	margin-left: 50px;
+} */
+
+/*online order overlay effect*/
+/*home delivery overlay effect*/
+.online,
+.homedel {
+  position: relative;
+}
+
+.order,
+.hmdelivery {
+  display: block;
+}
+
+.serviceoverlay {
+	width: 80%;
+	left: 50px;
+}
+
+.serviceoverlay,
+.deliveryoverlay {
+  position: absolute;
+  top: 40px;
+  bottom: 50px;
+  right: 50px;
+  height: 80%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fff5d0;
+}
+
+.deliveryoverlay {
+	width: 100%;
+	left: 10px;
+}
+
+.online:hover .serviceoverlay,
+.homedel:hover .deliveryoverlay {
+  opacity: 1;
+}
+
+.servicetext {
+  color: #bc5f04;
+  font-size: 30px;
+  position: absolute;
+  top: 48%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Merienda One', cursive;
+}
+
+/*contact page*/
+.contactpage .contactus .contact {
+	background-image: url(../images/social-connection-1624773.jpg);
+	background-repeat: no-repeat;
+}
+
+.contactpage .contactus .contact h2,
+.contactpage .contactmedia h2 {
+	font-size: 48px;
+	text-shadow: 2px 2px 3px brown;
+}
+
+.contactpage .contactus h3 {
+	font-size: 24px;
+} 
+
+.contactpage .contactmedia {
+	position: relative;
+}
+
+.contactpage .contactmedia .centered {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	font-size: 36px;
+}
+
+.contactpage .contactmedia img {
+	width: 120px;
+}
+
+.contactpage .login {
+	background-color: #fff5d0;
+}
+
+/*menu page*/
+.menupage .coffeemenu h2, 
+.menupage .foodmenu h2 {
+	text-align: center;
+	font-size: 48px;
+	text-shadow: 2px 2px 3px brown;
+}
+
+.menupage .coffeemenu .menubg,
+.menupage .foodmenu .menubg
+ {
+	background-color: #fff5d0; 
+}
+
+/*transition*/
+.homepage .about h2,
+.homepage .flavours h2,
+.homepage .testimonials h2,
+.aboutpage .aboutus h2,
+.aboutpage .events h2,
+.aboutpage .staff .centered,
+.menupage .coffeemenu h2,
+.menupage .foodmenu h2,
+.servicepage .services h2, 
+ .servicepage .cards h2,
+.contactpage .contactus h2,
+.contactpage .contactmedia h2,
+.contactpage .login h2 {
+	transition: 2s;
+}
+
+/* double underline hover effect
+.homepage .about h2:hover,
+.homepage .flavours h2:hover,
+.homepage .testimonials h2:hover,
+.aboutpage .aboutus h2:hover,
+.aboutpage .events h2:hover,
+.aboutpage .staff .centered:hover,
+.menupage .coffeemenu h2:hover,
+.menupage .foodmenu h2:hover,
+.servicepage .services h2:hover,
+.servicepage .cards h2:hover,
+.contactpage .contactus h2:hover,
+.contactpage .contactmedia h2:hover,
+.contactpage .login h2:hover {
+	text-decoration-line: underline;
+  	text-decoration-style: double;
+  	margin-left: 120px;
+} */
+ 
+/*media queries*/
+@media screen and (max-width: 600px) {
+    .responsive {
+    	width: 400px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .responsive {
+    	width: 300px;
+    }
+
+    .header h1 {
+    	font-size: 50px;
+    }
+
+    .text {
+    	font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 300px) {
+	.homepage .video video {
+		width: 250px;
+	}
+}
+@media screen and (min-width: 400px) {
+	.homepage .video video {
+		width: 350px;
+	}
+}
+
+@media screen and (min-width:600px) {
+	.homepage .video video {
+		width: 400px;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.homepage .video video {
+		width: 600px;
+	}
+}
+
+@media screen and (min-width: 900px) {
+
+	.homepage .video video {
+		width: 800px;
+	}
+}
+
+@media screen and (min-width: 1080px) {
+
+	.homepage .video video {
+		width: 900px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.homepage .video video {
+		width: 1080px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.homepage .testimonials h2,
+	.homepage .flavours h2,
+	.homepage .about h2 {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.staff .centered {
+		font-size: 20px;
+	}
+}
